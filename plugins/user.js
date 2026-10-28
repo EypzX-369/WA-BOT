@@ -1,5 +1,5 @@
 const { wabot, mode, isAdmin, formatTime, parsedJid } = require("../lib");
-const { downloadContentFromMessage } = require("@whiskeysockets/baileys");
+const { downloadContentFromMessage } = require("baileys");
 const config = require("../config");
 wabot(
   {

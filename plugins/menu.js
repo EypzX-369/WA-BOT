@@ -72,7 +72,7 @@ wabot({
   menu += `
 
 ${fancyFont(config.BOT_NAME)} \xA9 ${now.getFullYear()}`;
-  const quotedMessage = {
+ const quotedMessage = {
     key: {
       fromMe: false,
       participant: "0@s.whatsapp.net",
@@ -108,13 +108,6 @@ ${fancyFont(config.BOT_NAME)} \xA9 ${now.getFullYear()}`;
           newsletterJid: "120363298577467093@newsletter",
           newsletterName: config.BOT_NAME,
           serverMessageId: -1
-        },
-        externalAdReply: {
-          title: config.BOT_NAME,
-          body: config.OWNER_NAME,
-          thumbnailUrl: config.MENU_URL,
-          mediaType: 1,
-          renderLargerThumbnail: true
         }
       }
     },
